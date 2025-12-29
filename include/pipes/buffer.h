@@ -7,10 +7,10 @@
 #include <cstring>
 #include <cassert>
 #include <exception>
+#include <stdexcept>
 
 #if defined(_MSC_VER)
     #include <BaseTsd.h>
-	#include <stdexcept>
 
 	typedef SSIZE_T ssize_t;
 	#define print_formated sprintf_s
